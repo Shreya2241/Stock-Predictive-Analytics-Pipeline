@@ -79,10 +79,8 @@ terraform apply -auto-approve
 To manually execute transformations or run local iterations of the predictive machine learning models:
 
 Bash
-# Execute statistical time-series asset tracking
-python src/modeling/time_series_forecast.py
 
-# Execute enterprise revenue regression engine
+python src/modeling/time_series_forecast.py
 python src/modeling/revenue_regression.py
 
 3. Review Analytical Performance
