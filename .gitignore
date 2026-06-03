@@ -12,3 +12,6 @@ __pycache__/
 .DS_Store
 .vscode/
 *.pbix.lock
+
+
+python-layer/python/
